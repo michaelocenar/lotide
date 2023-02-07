@@ -6,8 +6,8 @@ const assertEqual = function(actual, expected) {
   }
 };
 const tail = function(array) {
-  return array[array.length - 1];
+  return array.slice(1);
 };
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+const result = tail(["Hello", "Lighthouse", "Labs"]);
+assertEqual(result.length, 2);
