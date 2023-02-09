@@ -16,8 +16,13 @@ const assertArraysEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
-assertArraysEqual([1, 2, 3], [3, 2, 1]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", 3]);
-assertArraysEqual([1, 2, 3, 4], [1, 2, 3]);
+
+const middle = function(array) {
+  let middleIndex = Math.floor(array.length / 2);
+  if (array.length % 2 === 0) {
+    return [array[middleIndex - 1], arr[middleIndex]];
+  } else {
+    return array[middleIndex];
+  }
+}
+
