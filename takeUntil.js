@@ -1,6 +1,6 @@
 const takeUntil = function(array, callback) {
-  let result = [];
-  for (let item of array) {
+  const result = [];
+  for (const item of array) {
     if (callback(item) === true) {
       return result;
     }
