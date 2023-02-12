@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@viacaelestis/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "copy of the lodash library made during the Lighthouse Labs Web Deb bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/viacaelestis/lotide.git"
   },
-  "author": "",
+  "author": "Michael Ocenar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/viacaelestis/lotide/issues"
